@@ -70,10 +70,11 @@
 		}
 		.contactForm
 		{
-			width: 30%;
-			padding: 10px;
+			width: 70%;
+			padding: 20px;
 			background: #fff;
-			margin-left:80px;
+			margin-left:250px;
+			
 			margin-bottom:200px;
 		}
 		
@@ -81,27 +82,43 @@
 		{
 			position:relative;
 			width:100%;
-			margin-top: 10px;
+			margin-top: 5px;
+		}
+		.contactForm .checkbox
+		{
+			width: 30%;
+			padding: 10px 0;
+			font-size:16px;
+			margin: 10px 0;
+			background: #C0C0C0;
+			border-bottom: 2px double #333;
+			border-left-width:10px;
+			border-radius:10px;
+			
 		}
 		.contactForm .inputBox input,
 		.contactForm .inputBox textarea
 		{
-			width: 100%;
+			width: 40%;
 			padding: 5px 0;
 			font-size:30px;
-			margin: 10px 0;
-			border:none;
-			border-bottom: 2px solid #333;
-			resize:none;
-			outline: none;
+			margin: 5px 0;
+			background: #C0C0C0;
+			border-bottom: 2px double #333;
+			border-left-width:5px;
+			border-radius:10px;
+			
+			
+			
 		}
 		.contactForm .inputBox span
 		{
 			position:absolute;
 			left:0;
-			padding: 5px 0;
-			font-size:16px;
+			padding: 0px 0;
+			font-size:30px;
 			margin: 10px 0;
+			margin-left:5px;
 			pointer-events:none;
 			transition: 0.5s;
 			color:#1E4E5F;
@@ -115,10 +132,25 @@
 			font-size:12px;
 			transform: translateY(-20px);
 		}
+		.contactForm .inputBox input[type="submit1"]
+		{
+			width:250px;
+			margin-left:700;
+			position:top;
+			background: #C0C0C0;
+			color:#1E4E5f;
+			border:none;
+			cursor: pointer;
+			padding:10px;
+			font-size:18px;
+			 position: absolute;
+  left: 20px;
+  bottom: 350px;
+		}
 		.contactForm .inputBox input[type="submit"]
 		{
 			width:200px;
-			margin-left:100;
+			margin-left:800;
 			background: #1E4E5F;
 			color:#fff;
 			border:none;
